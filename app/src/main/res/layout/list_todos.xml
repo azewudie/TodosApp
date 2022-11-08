@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F62294"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/ll_layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:padding="3dp"
+        android:layout_gravity="center_vertical"
+        android:elevation="30dp"
+
+        >
+
+        <TextView
+            android:id="@+id/tv_userId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="userId"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"
+            android:elegantTextHeight="true"
+
+
+
+            />
+        <TextView
+            android:id="@+id/tv_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Id"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"
+            android:elegantTextHeight="true"
+
+
+
+            />
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="title"
+            android:textSize="22sp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:elegantTextHeight="true"
+
+
+
+            />
+        <TextView
+            android:id="@+id/tv_completed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="completed"
+            android:textSize="22sp"
+            android:textColor="#1E00F7"
+
+            android:textAlignment="center"
+            android:layout_marginBottom="3dp"
+            android:elegantTextHeight="true"
+
+
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/white"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
